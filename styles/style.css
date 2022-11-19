@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.849);
+}
+section p{
+  font-size: 1.3rem;
+}
+a {
+  color: #311deb;
+  text-decoration: none;
+}
+.imagenCV{
+  border-radius: 25%;
+  width: 220px;
+  height: auto;
+}
+a:hover {
+  opacity: 0.5;
+}
+section{
+  padding: 1.4em;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+header h1{
+  font-size: 3rem;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  text-align: center;
+  background-color: darkgoldenrod;
+  color: white;
+  background-color: #311deb;
+}
+
+section div p{
+  font-size: 1.4rem;
+}
+section div{
+  padding-left: 3rem;
+}
+section h3{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.main {
+  max-width: 1140px;
+}
+
+.icono {
+  font-size: 4rem;
+  width: 3rem;
+  height: 3rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: white;
+  margin: 1rem;
+}
+footer a {
+  margin:0 1rem;
+}
+footer{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #311deb;
+}
